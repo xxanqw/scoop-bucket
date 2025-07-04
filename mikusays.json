@@ -13,7 +13,7 @@
             "hash": "c2ebd11a6da3591c6119899427ddf1f311e13d633d65a6cedf9be18d75ae4a1c"
         }
     },
-    "pre_install": "Rename-Item \"$dir\\mikusays-windows-*.exe\" 'mikusays.exe'",
+    "pre_install": "Get-ChildItem \"$dir\\mikusays-windows-*.exe\" | Rename-Item -NewName 'mikusays.exe'",
     "bin": "mikusays.exe",
     "checkver": "github",
     "autoupdate": {
