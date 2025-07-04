@@ -1,6 +1,6 @@
 {
     "version": "0.1.0",
-    "description": "A "cowsay" clone with Hatsune Miku ASCII art and speech bubbles.",
+    "description": "Get an anime girl to say something in your terminal.",
     "homepage": "https://github.com/xxanqw/mikusays",
     "license": "MIT",
     "architecture": {
@@ -13,10 +13,7 @@
             "hash": "69f5e13d1000f607a9c8491c360c1d68a99464522a101b0f02787889ac222ca8"
         }
     },
-    "pre_install": [
-        "if ($architecture -eq '64bit') { Rename-Item \"$dir\\mikusays-windows-x86_64.exe\" 'mikusays.exe' }",
-        "if ($architecture -eq 'arm64') { Rename-Item \"$dir\\mikusays-windows-aarch64.exe\" 'mikusays.exe' }"
-    ],
+    "pre_install": "Rename-Item \"$dir\\mikusays-windows-*.exe\" 'mikusays.exe'",
     "bin": "mikusays.exe",
     "checkver": "github",
     "autoupdate": {
