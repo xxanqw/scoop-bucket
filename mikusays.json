@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/xxanqw/mikusays/releases/download/v0.1.0/mikusays-windows-x86_64.exe",
-            "hash": "7a9e3346d0a7905d41f71a067a90f77b7136009088fdc0883d65b704c7f1a30f"
+            "hash": "65df42dd96d7555817cbb8a8ad9a0b6e6891f4ab7aaf92ac74f037cb599c28da"
         },
         "arm64": {
             "url": "https://github.com/xxanqw/mikusays/releases/download/v0.1.0/mikusays-windows-aarch64.exe",
-            "hash": "69f5e13d1000f607a9c8491c360c1d68a99464522a101b0f02787889ac222ca8"
+            "hash": "c2ebd11a6da3591c6119899427ddf1f311e13d633d65a6cedf9be18d75ae4a1c"
         }
     },
     "pre_install": "Rename-Item \"$dir\\mikusays-windows-*.exe\" 'mikusays.exe'",
