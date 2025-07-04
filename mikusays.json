@@ -1,6 +1,6 @@
 {
     "version": "0.1.0",
-    "description": "Get an anime girl to say something in your terminal.",
+    "description": "A "cowsay" clone with Hatsune Miku ASCII art and speech bubbles.",
     "homepage": "https://github.com/xxanqw/mikusays",
     "license": "MIT",
     "architecture": {
