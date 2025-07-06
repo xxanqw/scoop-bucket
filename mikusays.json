@@ -1,16 +1,16 @@
 {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A "cowsay" clone with Hatsune Miku ASCII art and speech bubbles.",
     "homepage": "https://github.com/xxanqw/mikusays",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/xxanqw/mikusays/releases/download/v0.1.0/mikusays-windows-x86_64.exe",
-            "hash": "65df42dd96d7555817cbb8a8ad9a0b6e6891f4ab7aaf92ac74f037cb599c28da"
+            "url": "https://github.com/xxanqw/mikusays/releases/download/v0.1.1/mikusays-windows-x86_64.exe",
+            "hash": "bd1eb3582150262fc6f1f6c8683d6f85794eb3a75bfd3bacf52876cab9922790"
         },
         "arm64": {
-            "url": "https://github.com/xxanqw/mikusays/releases/download/v0.1.0/mikusays-windows-aarch64.exe",
-            "hash": "c2ebd11a6da3591c6119899427ddf1f311e13d633d65a6cedf9be18d75ae4a1c"
+            "url": "https://github.com/xxanqw/mikusays/releases/download/v0.1.1/mikusays-windows-aarch64.exe",
+            "hash": "fad052da38518d54163e7519d1e9bd120a177039ca891122a4faee4e9a2fd870"
         }
     },
     "pre_install": "Get-ChildItem \"$dir\\mikusays-windows-*.exe\" | Rename-Item -NewName 'mikusays.exe'",
