@@ -3,6 +3,7 @@
     "description": "A 'cowsay' clone with Hatsune Miku ASCII art and speech bubbles.",
     "homepage": "https://github.com/xxanqw/mikusays",
     "license": "MIT",
+    "depends": "extras/vcredist2022",
     "architecture": {
         "64bit": {
             "url": "https://github.com/xxanqw/mikusays/releases/download/v0.1.1/mikusays-windows-x86_64.exe",
